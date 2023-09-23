@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bienvenidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--menu header-->
+        <div class="container-header">
+            <header>
+                <div class="logo">
+                    <a href="#inicio">Diego Pastuch</a>
+                </div>
+                <nav id="nav" class="responsive">
+                    <ul>
+                        <li><a href="#inicio" onclick="seleccion()">INICIO</a></li>
+                        <li><a href="#cv" onclick="seleccion()">CURRICULUM</a></li>
+                        <li><a href="#contact" onclick="seleccion()">CONTACTO</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>  
+        
+        <!-- sección inicio-->
+        <section id="inicio" class="inicio">
+            <div class="content-banner">
+                <div class="contenedor-img">
+                    <img src="imagenes/dmp.webp" alt="imagen de Presentación">
+                </div>
+                    <h1>DIEGO PASTUCH</h1>
+                    <h2>Desarrollador Frontend</h2>
+                    <p>Bienvenidos a este sitio donde podrás conocer mis últimos proyectos de desarrollo web.</p>
+                <div class="redes-sociales">
+                    <a href="https://www.linkedin.com/in/diegopastuch/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/d13past" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/diepast" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.salesforce.com/trailblazer/diegomiguelpastuch" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-salesforce"></i></a>
+                    <a href="https://www.cloudskillsboost.google/public_profiles/f8909794-d9b4-4714-bd5f-1110a724a5a9" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección cv -->
+        <section id="cv" class="cv">
+            <div class="section-content">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Licenciatura en Gestión de Tecnología Informática</h4>
+                            <span class="uni">Universidad Abierta Interamericana</span>
+                            <span class="fecha">2019 - 2024</span>
+                            <p>Posee la habilidad para administrar y planificar los recursos tecnológicos, humanos y de información de cualquier organización. Capacitado para realizar actividades de gestión, asesoramiento y coordinación, análisis de la información y de los recursos tecnológicos asociados, con una visión crítica y creativa.</p>
+                            <div class="conectori">
+                            <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Programador Python Full Stack</h4>
+                            <span class="uni">Codo a Codo - Gobierno de la Ciudad de Buenos Aires</span>
+                            <span class="fecha">2019 - 2020</span>
+                            <p>Certificación Oficial con validez Nacional. Técnicas de Programación, POO, Base de datos, Desarrollo de Software y Relaciones Laborales. El programa se centra en un lenguaje de programación que será utilizado para exponer estos conceptos y ejercitar en los trabajos prácticos.</p>
+                            <div class="conectori">
+                            <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Idioma Inglés Proficiency CEFR C1</h4>
+                            <span class="uni">Anglia - Chichester College</span>
+                            <span class="fecha">2012-2014</span>
+                            <p>UCAS es una prueba de aptitud en idioma inglés con una calificación válidada por universidades británicas para estudiantes internacionales. Además, el examen de competencia AcCEPT representa un test académico muy sólido.</p>
+                            <div class="conectori">
+                            <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col derecha">
+                        <h3>Experiencia Laboral</h3>
+                        <div class="item der">
+                            <h4>Salesforce Developer</h4>
+                            <span class="uni">IBM</span>
+                            <span class="fecha">06.2021 - 06.2022</span>
+                            <p>Proyecto de AMS de IBM para su cliente Telecom de desarrollo en Salesforce.</p>
+                            <div class="conectord">
+                            <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>FrontEnd Developer</h4>
+                            <span class="uni">Cibersoft Web Agency</span>
+                            <span class="fecha">03.2020 - 06.2022</span>
+                            <p>Desarrollo de sitios web en Wordpress</p>
+                            <div class="conectord">
+                            <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Técnico en Computación</h4>
+                            <span class="uni">Cibersoft</span>
+                            <span class="fecha">2003 - 2021</span>
+                            <p>Venta - Mantenimiento y Servicio Técnico Informática</p>
+                            <div class="conectord">
+                            <div class="circulod"></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección contacto -->
+        <section id="contact" class="contact">
+            <div class="section-content">
+                <h2>Contacto</h2>
+                <div class="fila">
+                    <!-- google maps-->
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3283.8433503803703!2d-58.371320910560605!3d-34.60812248798066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDM2JzI5LjMiUyA1OMKwMjEnNTkuMiJX!5e0!3m2!1ses-419!2sar!4v1693581049300!5m2!1ses-419!2sar" width="100%" height="612" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <!-- form -->
+                    <div class="col">
+                        <form id="contact-form">
+                        <input type="text" id="name" placeholder="Nombre y Apellido:">
+                        <input type="text" id="telefono" placeholder="Telefóno:">
+                        <input type="text" id="email" placeholder="E-mail:">
+                        <input type="text" id="titulo" placeholder="Tema de la Consulta:">
+                        <textarea name="" id="mensaje" cols="32" rows="12" placeholder="Escribí tu consulta:"></textarea>
+                        <button type="submit" onclick="sendMail()"><i class="fa-regular fa-envelope" ></i> Enviar
+                        <span class="overlay"></span>
+                        </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección footer -->
+        <footer>
+            <a href="#inicio" class="angles-up"><i class="fa-solid fa-angles-up"></i></a>
+            <div class="redes-sociales">
+                <a href="https://www.linkedin.com/in/diegopastuch/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/d13past" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/diepast" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.salesforce.com/trailblazer/diegomiguelpastuch" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-salesforce"></i></a>
+                <a href="https://www.cloudskillsboost.google/public_profiles/f8909794-d9b4-4714-bd5f-1110a724a5a9" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google"></i></a>
+            </div>
+            <div>
+                <p><span id="year"></span> © Copyright </p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+                (function(){
+                    emailjs.init("7gwqqVwP4s7Jnoeg5");
+                })();
+        </script>
+        
+    </body>
+</html>
